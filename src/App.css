@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fle{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 37px;
+    bottom: 5px;
+}
+
+.green, .blue, .red{
+    margin-left:18px ;
+    margin-top: 9px;
+}
+.color-r{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.color-g{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    cursor: pointer;
+
+}
+
+.color-b{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+input[type=checkbox] { 
+    visibility: hidden; 
+} 
